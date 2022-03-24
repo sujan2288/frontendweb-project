@@ -1,0 +1,82 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+body
+{
+    font-family: sans-serif;
+}
+#nav-bar 
+{
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+.navbar
+{
+    background-image: linear-gradient(to right, #111111)
+
+}
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+  }
+#pic{
+        background: url("italy_vineyard.jpg");
+        width: 100%;
+        height: 100%; 
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        position: relative;
+        overflow: auto;
+        margin-top: -64px;
+        } 
+#pic2{
+        
+        
+    background: url("italy_vineyard.jpg");
+    width: 100%;
+    height: 300px; 
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    position: relative;
+    overflow: auto;
+    margin-top: -64px;
+}
+.centered1 {
+    position: absolute;
+  bottom: 210px;
+ left: 300px;
+        /* position: absolute; */
+        /* top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%); */
+       color: white;
+  }
+.fix-table-height{
+    max-height:200px;
+
+}
+#table-responsive-sm{
+    width: 80%;
+
+}
+.text{
+    text-align: right;
+}
+.foot {
+    position: relative;
+    margin-top: -100px; /* Note the negative value */
+    height: 50px;
+    
+    align-self: flex-end;
+    
+  }
+  h7{
+      color: blue;
+  }
+

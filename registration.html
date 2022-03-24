@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+
+    <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css">
+
+</head>
+
+<body>
+    <h3> &nbsp;Registration</h3>
+    <hr>
+    <form>
+
+        <div class="form-group">
+
+            <label for="exampleInputFname">&nbsp; First Name</label><br> &nbsp;
+            <input type="text" value=" " id="fname">
+
+            <div class="form-group">
+                <label for="exampleInputLastName"> &nbsp;LastName</label><br> &nbsp;
+                <input type="text" value=" " id="lname">
+
+
+            </div>
+            <div>
+                <label for="email"> &nbsp;Email </label> <br> &nbsp;
+                <input type="text" value=" " id="email">
+            </div>
+            <div>
+                <label for="pwd"> &nbsp;Password</label><br> &nbsp;
+                <input type="text" value=" " id="pwd" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}"
+                    title="Must contain 7-12 character and at least one number" required>
+
+            </div>
+            <div>
+                <label for="pwd"> &nbsp;Confirm Password </label><br> &nbsp;
+                <input type="text" value=" " id="pwd"><br>
+            </div>
+            <div>
+                <label for="Gender"> &nbsp; Gender </label><br> &nbsp;
+
+                <!-- <label for="Gender"> Gender </label><br> -->
+                <input type="radio" name="Gender"> Female <br>&nbsp;
+                <input type="radio" name="Gender"> Male <br>&nbsp;
+                <input type="radio" name="Gender"> Other <br>
+                &nbsp; <input type="checkbox" id="I am over +18" value="I am over +18 "> I am over +18
+            </div>
+
+            <br> &nbsp;
+            <button type="submit" class="btn btn-danger"> &nbsp;Close</button>
+            <button type="submit" class="btn btn-primary"> &nbsp;Submit</button>
+           
+
+    </form>
+
+</body>
+
+</html>
